@@ -1,4 +1,5 @@
 # Dungeons & Dragons Application
+DMIT2504 - Android Development final project - *Completed on April 19, 2018*
 ## Description
 This is my final project for the Android Development course I took at Northern Alberta Institue of Technology (NAIT). It is a simple
 dice roller that allows a user to either tap on the "ROLL" button or by shaking the mobile device. I was more focused on the design of
