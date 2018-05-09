@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Dungeons &amp; Dragons Application</string>
+    <string name="text_view_text_shake_tip">Tip: Try shaking the phone :)</string>
+    <string name="text_view_text_roll">Tap on the die or tap ROLL</string>
+    <string name="text_view_text_dnd_info">Click for more D&amp;D info</string>
+    <string name="button_text_dice_roller">Dice Roller</string>
+    <string name="button_text_create_character">Create Character</string>
+    <string name="button_text_roll">Roll</string>
+    <string name="content_description_home_header">Dungeons &amp; Dragons 5E Logo</string>
+    <string name="content_description_dice_image">Dice Image</string>
+    <string name="content_description_info_icon">Dungeons &amp; Dragons Info Icon</string>
+</resources>

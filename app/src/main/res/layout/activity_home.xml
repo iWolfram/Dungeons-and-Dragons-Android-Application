@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/content_description_home_header"
+        android:src="@drawable/dd5elogo" />
+
+    <Button
+        android:id="@+id/button_dice_roller"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/imageView"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button"
+        android:text="@string/button_text_dice_roller"
+        android:textColor="#f7d38e"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button_create_character"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/button_dice_roller"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button"
+        android:text="@string/button_text_create_character"
+        android:textColor="#f7d38e"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/image_view_dnd_info"
+            android:layout_toLeftOf="@+id/image_view_dnd_info"
+            android:layout_toStartOf="@+id/image_view_dnd_info"
+            android:text="@string/text_view_text_dnd_info"
+            android:textColor="#fff"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"/>
+
+        <ImageView
+            android:id="@+id/image_view_dnd_info"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:contentDescription="dnd info"
+            android:src="@android:drawable/ic_dialog_info" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
